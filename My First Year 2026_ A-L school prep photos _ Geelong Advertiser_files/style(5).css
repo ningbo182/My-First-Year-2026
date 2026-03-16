@@ -1,0 +1,39 @@
+.article-read-more {
+  padding-top: 16px;
+  margin-top: 0;
+  border-top: 8px solid #f5f5f5;
+}
+.article-read-more[data-type=mostcommented] .mosaic .storyblock {
+  display: block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 20px;
+  min-height: 80px;
+}
+.article-read-more[data-type=mostcommented] .storyblock_meta,
+.article-read-more[data-type=mostcommented] .storyblock_image_link {
+  display: none;
+}
+.article-read-more .mosaic {
+  border-top: none;
+  padding-top: 0;
+}
+.article-read-more .mobile-stack {
+  display: block;
+}
+.article-read-more .responsive-img {
+  background-color: transparent;
+}
+.article-read-more.list .storyblock .storyblock_title {
+  margin: 0;
+}
+.article-read-more .storyblock_title_link {
+  font-size: 16px;
+}
+
+body[data-brand=codesports] .article-read-more {
+  border-top: 0px;
+}
+body[data-brand=codesports] .article-read-more .mosaic-heading {
+  border-top: 8px solid #202223;
+}
